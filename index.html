@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asim Dutta | Personal Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio of Asim Dutta, Intern at YCSAS. Showcasing projects, skills, and internship experience."
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="logo">AD.</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#internship">Internship</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button
+        id="theme-toggle"
+        class="theme-toggle"
+        aria-label="Toggle Dark/Light Mode"
+      >
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="fade-in">
+        <h1>Hi, I'm <span class="name">Asim Dutta</span></h1>
+        <div id="typing-text" class="typing-text"></div>
+        <p>Passionate developer building modern web experiences.</p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2 class="section-title fade-in">About Me</h2>
+      <div class="about-content fade-in">
+        <div class="about-text">
+          <h3>Background & Goals</h3>
+          <p>
+            Hello! I'm Asim, a dedicated learner currently pursuing my journey
+            in the tech world. My career goal is to become a proficient
+            full-stack developer, creating impactful digital solutions.
+          </p>
+          <p>
+            I joined the YCSAS Internship to bridge the gap between theoretical
+            knowledge and real-world application, challenging myself to grow in
+            a professional environment.
+          </p>
+        </div>
+        <div class="about-image">
+          <!-- Placeholder for Image or Graphics -->
+          <div
+            style="
+              width: 100%;
+              height: 300px;
+              background: var(--surface-color);
+              border-radius: 2rem;
+              border: 1px solid var(--accent-color);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <i
+              class="fas fa-user-graduate"
+              style="font-size: 5rem; color: var(--accent-color)"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2 class="section-title fade-in">My Expertise</h2>
+      <div class="skills-grid">
+        <div class="skill-card fade-in">
+          <i class="fab fa-html5"></i>
+          <h4>HTML</h4>
+          <p>Structure & Semantics</p>
+        </div>
+        <div class="skill-card fade-in">
+          <i class="fab fa-css3-alt"></i>
+          <h4>CSS</h4>
+          <p>Design & Animation</p>
+        </div>
+        <div class="skill-card fade-in">
+          <i class="fab fa-js"></i>
+          <h4>JavaScript</h4>
+          <p>Logic & Interaction</p>
+        </div>
+        <div class="skill-card fade-in">
+          <i class="fab fa-react"></i>
+          <h4>React</h4>
+          <p>Component Architecture</p>
+        </div>
+        <div class="skill-card fade-in">
+          <i class="fab fa-git-alt"></i>
+          <h4>Git</h4>
+          <p>Version Control</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Internship Section -->
+    <section id="internship" class="internship">
+      <h2 class="section-title fade-in">
+        YCSAS Internship — Learning Journey & Experience
+      </h2>
+      <div class="internship-container fade-in">
+        <h3>Role: Frontend Web Developer Intern</h3>
+        <p>
+          <strong>Experience & Outcomes:</strong> Successfully collaborated on
+          multiple modules, gaining hands-on experience in modern frontend
+          development practices.
+        </p>
+
+        <div class="internship-badges">
+          <span class="badge">Responsive Design</span>
+          <span class="badge">API Integration</span>
+          <span class="badge">Team Collaboration</span>
+          <span class="badge">Problem Solving</span>
+          <span class="badge">Technical Writing</span>
+        </div>
+
+        <p>
+          <strong>Topics Learned:</strong> Deep dive into Advanced CSS, UI/UX
+          principles, JavaScript DOM manipulation, and project management
+          workflows.
+        </p>
+        <p>
+          <strong>Learning Impact:</strong> This internship has significantly
+          accelerated my ability to write clean, maintainable code and think
+          critically about user experience.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <h2 class="section-title fade-in">Featured Tasks & Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card fade-in">
+          <div class="project-info">
+            <h4>Task 1: Landing Page</h4>
+            <p>
+              Designed a high-conversion landing page using pure CSS and HTML.
+              Focused on mobile responsiveness and performance.
+            </p>
+            <div class="badge">HTML / CSS</div>
+            <a
+              href="#"
+              class="btn btn-secondary"
+              style="margin-top: 1rem; display: inline-block"
+              >View Detail</a
+            >
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-info">
+            <h4>Task 2: Interactive Dashboard</h4>
+            <p>
+              Built a dynamic dashboard with real-time data visualization using
+              JavaScript components.
+            </p>
+            <div class="badge">JS / API</div>
+            <a
+              href="#"
+              class="btn btn-secondary"
+              style="margin-top: 1rem; display: inline-block"
+              >View Detail</a
+            >
+          </div>
+        </div>
+        <div class="project-card fade-in">
+          <div class="project-info">
+            <h4>Task 3: Task Manager</h4>
+            <p>
+              A full-featured task management app with localStorage persistence
+              and interactive UI.
+            </p>
+            <div class="badge">JavaScript</div>
+            <a
+              href="#"
+              class="btn btn-secondary"
+              style="margin-top: 1rem; display: inline-block"
+              >View Detail</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2 class="section-title fade-in">Get In Touch</h2>
+      <div class="contact-container fade-in">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope"></i>
+            <span>asim.dutta@example.com</span>
+          </div>
+          <div>
+            <i class="fab fa-github"></i>
+            <span>github.com/asimdutta</span>
+          </div>
+          <div>
+            <i class="fab fa-linkedin"></i>
+            <span>linkedin.com/in/asimdutta</span>
+          </div>
+        </div>
+        <form id="contact-form" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      style="
+        text-align: center;
+        padding: 2rem;
+        color: var(--text-muted);
+        border-top: 1px solid var(--glass-border);
+      "
+    >
+      <p>
+        &copy; 2026 Asim Dutta. Made with
+        <i class="fas fa-heart" style="color: #ef4444"></i> for YCSAS
+        Internship.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
